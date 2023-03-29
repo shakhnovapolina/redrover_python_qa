@@ -1,5 +1,6 @@
 class Book:
     book_matherial = 'paper'
+
     def __init__(self, name, year, author):
         self.__name = name
         self._year = year
@@ -40,7 +41,8 @@ kolobok.set_name('granny')
 print(kolobok.get_name)
 print(kolobok.reading_time(10))
 
-zolushka = ChildBook('Zolushka', 2020, 'charl perro', 'small edition')
+
+zolushka = ChildBook('Zolusshka', 2020, 'charl perro', 'small edition')
 print(zolushka.get_name, zolushka.cover)
 print(kolobok.__dict__)
 print(zolushka.__dict__)

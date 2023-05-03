@@ -1,0 +1,28 @@
+Напишите любой user-story и соответствующий тест кейс для сайта https://openweathermap.org/
+
+***user-story:
+
+As a User, I want to visit the Main page, so that I can see default city at the top of the page.
+
+Acceptance criteria:
+
+Verify the city’s name is "London" and it's visible;
+Verify the date, and it's like system date and it's visible.
+
+
+***test case:
+
+Precondition:
+Navigate to Main page https://openweathermap.org/
+
+Steps:
+
+Find city's name
+Verify the city's name
+Find the date
+Verify date
+
+Expected results:
+
+The city's name visible and matches expected text (OpenWeather)
+The date visible and matches system date
